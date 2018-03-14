@@ -6,7 +6,7 @@ Voter_ID = []
 County = []
 Candidate = []
 
-with open('election_data_1.csv', newline="") as csvfile:
+with open('election_data_2.csv', newline="") as csvfile:
     ignore = csvfile.readline()
     csvreader = csv.reader(csvfile, delimiter=",")
     for row in csvreader:
